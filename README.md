@@ -197,15 +197,15 @@ Refer to `.env.example` for the complete configuration.
 
 ---
 
-# Future Improvements
+# Assumptions
 
-- Refresh Token Authentication
-- Persistent JWT blacklist using Redis
-- Pagination for task listing
-- Automated unit & integration tests
-- CI/CD pipeline with GitHub Actions
-- Frontend dashboard
-- Role management UI
+- All newly registered users are created as **Normal Users**.
+
+- Administrator accounts are seeded automatically at startup.
+
+- Task status can be updated on the due date but not afterwards.
+
+- The logout blacklist is intentionally kept in memory for this assessment.
 
 ---
 
