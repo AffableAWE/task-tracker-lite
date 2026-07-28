@@ -3,7 +3,7 @@
 User authentication, roles & task management with categories.
 FastAPI + PostgreSQL + SQLAlchemy, fully Dockerized.
 
-**Demo video:** _[add link here]_
+**Demo video:**
 
 ## Quick start
 
