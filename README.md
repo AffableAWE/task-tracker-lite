@@ -202,4 +202,4 @@ Refer to `.env.example` for the complete configuration.
 
 # License
 
-This project was developed as part of a technical assessment for **Sharp & Tannan Associates**.
+This project was developed as part of a technical assessment for **Sharp & Tannan Associates**...
