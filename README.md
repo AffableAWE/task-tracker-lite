@@ -2,7 +2,7 @@
 
 A role-based Task Management REST API built with **FastAPI**, **PostgreSQL**, and **SQLAlchemy**. The application implements secure JWT authentication, role-based authorization, category management, task management, and an admin dashboard with filtering capabilities. The entire application is fully Dockerized for easy deployment.
 
-## Features
+## Features:
 
 - JWT-based Authentication (Register, Login, Logout)
 - Secure password hashing using **bcrypt**
@@ -17,7 +17,7 @@ A role-based Task Management REST API built with **FastAPI**, **PostgreSQL**, an
 
 ---
 
-## Tech Stack
+## Tech Stack:
 
 - **Backend:** FastAPI
 - **Language:** Python 3.12
