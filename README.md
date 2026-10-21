@@ -24,7 +24,7 @@ A role-based Task Management REST API built with **FastAPI**, **PostgreSQL**, an
 - **Database:** PostgreSQL 16
 - **ORM:** SQLAlchemy
 - **Validation:** Pydantic
-- **Authentication:** JWT (python-jose)
+- **Authentication:** JWT
 - **Password Hashing:** Passlib (bcrypt)
 - **Containerization:** Docker & Docker Compose
 
