@@ -76,7 +76,7 @@ ADMIN_EMAIL
 ADMIN_PASSWORD
 ```
 
-These values can be configured in the `.env` file.
+These values can be configured in the `.env` file...
 
 ---
 
