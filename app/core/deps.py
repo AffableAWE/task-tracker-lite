@@ -8,11 +8,7 @@ from app.models import User, UserRole
 
 bearer_scheme = HTTPBearer(auto_error=False)
 
-# In-memory blacklist for logged-out tokens.
-# Simple and fine for this assessment; in production you'd use Redis
-# with TTL or rely on short-lived access + refresh tokens.
 token_blacklist: set[str] = set()
-
 
 def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme),
