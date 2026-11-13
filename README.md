@@ -196,6 +196,7 @@ Refer to `.env.example` for the complete configuration.
 - All newly registered users are created as **Normal Users**.
 - Administrator accounts are seeded automatically at startup.
 - Task status can be updated on the due date but not afterwards.
+- The logout blacklist is intentionally kept in memory for this assessment.
 
 
 ---
