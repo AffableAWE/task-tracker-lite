@@ -15,8 +15,7 @@ def list_categories(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
-    # Normal users can VIEW categories (they need to, to assign tasks),
-
+    
     return category_service.list_categories(db)
 
 
