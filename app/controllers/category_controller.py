@@ -16,7 +16,7 @@ def list_categories(
     current_user: User = Depends(get_current_user),
 ):
     # Normal users can VIEW categories (they need to, to assign tasks),
-    # but only admins can create/update/delete below.
+
     return category_service.list_categories(db)
 
 
