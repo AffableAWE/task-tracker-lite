@@ -1,4 +1,4 @@
-# Task Tracker Lite
+# Task Tracker Lite!
 
 A role-based Task Management REST API built with **FastAPI**, **PostgreSQL**, and **SQLAlchemy**. The application implements secure JWT authentication, role-based authorization, category management, task management, and an admin dashboard with filtering capabilities. The entire application is fully Dockerized for easy deployment.
 
