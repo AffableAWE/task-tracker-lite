@@ -20,7 +20,7 @@ A role-based Task Management REST API built with **FastAPI**, **PostgreSQL**, an
 ## Tech Stack:
 
 - **Backend:** FastAPI
-- **Language:** Python 3.12
+- **Language:** Python 3.11
 - **Database:** PostgreSQL 16
 - **ORM:** SQLAlchemy
 - **Validation:** Pydantic
